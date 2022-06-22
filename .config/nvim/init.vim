@@ -25,6 +25,9 @@ if has("autocmd")
     au BufNewFile,BufRead *.es6 setfiletype javascript
 endif
 
+" autoindent
+set autoindent
+
 " vim-plug
 call plug#begin()
 
