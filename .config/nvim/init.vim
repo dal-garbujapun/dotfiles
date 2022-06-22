@@ -13,6 +13,18 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
+" whitespace preferences and filetypes
+" only do this part when compiled with support for autocommands
+if has("autocmd")
+    " enable file type detection
+    filetype on
+
+    autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=4 expandtab
+
+    " treat .es6 files as javascript
+    au BufNewFile,BufRead *.es6 setfiletype javascript
+endif
+
 " vim-plug
 call plug#begin()
 
