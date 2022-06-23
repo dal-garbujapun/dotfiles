@@ -31,5 +31,6 @@ set autoindent
 " vim-plug
 call plug#begin()
 
-
+    " git
+    Plug 'tpope/vim-fugitive' 
 call plug#end()
