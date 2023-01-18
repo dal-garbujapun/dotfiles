@@ -1,0 +1,6 @@
+[user]
+    email = dal@garbuja.pun
+    name = Dal S Garbuja Pun
+[core]
+    excludesfile = ~/.gitignore
+	editor = vi
